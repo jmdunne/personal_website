@@ -1,0 +1,100 @@
+*
+
+{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/*This applies to the id. # Will only work with id. This will keep header at top*/
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/*This is applied to navbar characteristics. Linear Gradient moves the color from light to dark*/
+.navbar {
+    background-image: linear-gradient(to right, #a517ba, #5f1782 );
+    padding: 0 !important;
+}
+
+/*This class applies only to the brand*/
+.navbar-brand {
+    height: 40px;
+    padding-left: 20px;
+}
+
+/*Added p to edit text*/
+.navbar-brand p {
+    color: white;
+}
+
+/*Styling for the nav links*/
+.nav-item a {
+    font-size: 10px;
+}
+
+
+/*This applies only to the list items under .navbar-nav class*/
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+/*Adding the a is speaking to the anchor class within the list*/
+.navbar-nav li a {
+    color: white !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+/*This is code for the Hamburger Menu for Mobile*/
+.fa-bars {
+    color: white;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline:none !important;
+}
+
+/*---------Banner Section----------*/
+
+/*Banner is an id so use the # option*/
+#banner {
+    background-image: linear-gradient(to right, #a517ba, #5f1782 );
+    color: white;
+    padding-top: 5%;
+}
+
+
+/*Name*/
+.promo-title {
+    font-size: 80px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+
+.promo-subtitle {
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+
+/*Styling for the play button*/
+.play-btn {
+    width: 45px;
+    margin: 20px;
+}
+
+
+#banner a {
+    color: white;
+    text-decoration: none;
+}
